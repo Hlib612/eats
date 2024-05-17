@@ -1,0 +1,29 @@
+:root{
+    --main-text-color: #737373;
+    --accent-color: #FA4A0C;
+    --logo-color: #009CBF;
+}
+.container{
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    border: 1px solid red;
+}
+.flex{
+    display: flex;
+}
+.header{
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+.header-logo{
+    margin-right: auto;
+}
+.header-list{
+    list-style-type: none;
+    gap: 94px;
+}
+.header-nav{
+    align-items: center;
+}
